@@ -1,0 +1,130 @@
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+.heading{
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+.Calculator{
+    border-radius: 20px ;
+    height: 684px;
+    width : 565px;
+    background-color: black;
+    position: relative;
+}
+.input{
+    text-align: right;
+    padding: 10px;
+}
+.Display{
+    position: relative;
+    top: 16px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: #E2FC9A;
+    height: 200px;
+    width: 525px;
+    margin-left: 20px;
+    margin-bottom: 3%;
+}
+.buttons{
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    margin-right: 22px;
+    padding: 0%;
+    left: 8px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 3px;
+}
+.btn{
+    padding: 0%;
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color:gray;
+    border: transparent;
+    border-radius: 10px;
+}
+.btn {
+    border-color: gray;
+    color: #fff;
+    box-shadow: 0 0 40px 40px gray inset, 0 0 0 0 gray;
+    transition: all 150ms ease-in-out;
+    
+    &:hover {
+      box-shadow: 0 0 2px 0 gray inset, 0 0 10px 2px gray;
+    }
+  }
+.b7{
+    order:0;
+}
+.b8{
+    order:1;
+}
+.b9{
+    order:2;
+}
+.Del{
+    order:3;
+}
+.AC{
+    order: 4;
+}
+.b4{
+    order:5;
+}
+.b5{
+    order:6;
+}
+.b6{
+    order:7;
+}
+.badd{
+    order:8;
+}
+.bsub{
+    order: 9;
+}
+.b1{
+    order: 10;
+}
+.b2{
+    order:11;
+}
+.b3{
+    order: 12;
+}
+.bmulti{
+    order: 13;
+}
+.bdiv{
+    order: 14;
+}
+.b0{
+    order: 15;
+}
+.bb{
+    order: 20;
+}
+.EXE{
+    order: 21;
+}
+.bbr{
+    order: 18;
+}
+.brb{
+    order: 19;
+}
+
