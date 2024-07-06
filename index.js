@@ -98,3 +98,66 @@ function clicklbracket() {
     prevValue = $('.input').html()
     $(".input").append(")")
 }
+$(document).keydown(function (e) { 
+    switch (e.key) {
+        case "0":
+            click0();
+            break;
+        case "1":
+            click1();
+            break;
+        case "2":
+            click2();
+            break;
+        case "3":
+            click3();
+            break;
+        case "4":
+            click4();
+            break;
+        case "5":
+            click5();
+            break;
+        case "6":
+            click6();
+            break;
+        case "7":
+            click7();
+            break;
+        case "8":
+            click8();
+            break;
+        case "9":
+            click9();
+            break;
+        case ".":
+            clickd();
+            break;
+        case "*":
+            clickX();
+            break;
+        case "/":
+            clickdiv();
+            break;
+        case "-":
+            clicks();
+            break;
+        case "+":
+            clicka();
+            break;
+        case "Backspace":
+            clickdel();
+            break;
+        case "Enter":
+            clickeq();
+            break; 
+        case "(":
+            clickbracket();
+            break; 
+        case ")":
+            clicklbracket();
+            break;  
+        default:
+            break;
+    }
+});
